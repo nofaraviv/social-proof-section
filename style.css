@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.page-container {
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-position: 0 0, 400px 300px;
+  background-repeat: no-repeat;
+  padding: 5% 10%;
+}
+
+.title-description-top {
+  padding-right: 15%;
+}
+
+.page-title {
+  color: hsl(300, 43%, 22%);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.page-description {
+  color: hsl(303, 10%, 53%);
+}
+
+.rating-stars {
+  padding: 1% 0 0;
+}
+
+.stars-bar {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  padding: 3% 7%;
+  width: 80%;
+}
+
+.stars-title {
+  color: hsl(300, 43%, 22%);
+  font-size: 15px;
+  font-weight: 700;
+  display: inline;
+  padding-left: 7%;
+}
+
+.second-stars-bar {
+  margin: 3% 0 3% 10%;
+}
+
+.third-stars-bar {
+  margin-left: 20%;
+}
+
+.testimonials-section {
+  padding-top: 5%;
+}
+
+.testimonials-box {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 4% 4% 3% 4%;
+  max-height: 292px;
+  max-width: 32%;
+}
+
+.testimonials-second-box {
+  margin-top: 3%;
+}
+
+.testimonials-third-box {
+  margin-top: 6%;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  float: left;
+  width: 20%;
+  margin: 0 5% 8% 0;
+}
+
+.testimonials-text-header {
+  float: left;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.testimonials-title {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.testimonials-subtitle {
+  color: hsl(333, 80%, 67%);
+  opacity: 0.5;
+}
+
+.testimonials-description {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+@media (max-width: 500px) {
+
+  .title-description-top {
+    text-align: center;
+  }
+
+  .stars-title {
+    display: block;
+  }
+
+  .stars-bar {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .second-stars-bar, .third-stars-bar {
+    margin-left: 0;
+  }
+
+  .testimonials-box {
+    max-width: none;
+    padding: 10% 10% 9% 10%;
+  }
+
+  .testimonials-second-box, .testimonials-third-box {
+    margin-top: 0;
+  }
+
+
+
+}
